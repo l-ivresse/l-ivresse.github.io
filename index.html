@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>L'ivresse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main id="screens">
+
+    <section class="screen" id="home">
+      <picture>
+        <source media="(orientation: portrait)" srcset="assets/home/vertical-home.png">
+        <img src="assets/home/horizontal-home.png" alt="L'ivresse, Lee Sangwon art archive" draggable="false">
+      </picture>
+
+      <div class="hint" id="hint" aria-hidden="true">
+        <span class="hint-desktop">drag to explore</span>
+        <span class="hint-mobile">swipe up to explore</span>
+        <span class="hint-arrow">→</span>
+      </div>
+    </section>
+
+    <section class="screen" id="movies"></section>
+
+    <section class="screen placeholder" id="songs">
+      <p>songs</p>
+    </section>
+
+    <section class="screen" id="books"></section>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="cloud.js"></script>
+  <script src="songs.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
