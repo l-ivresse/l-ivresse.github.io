@@ -42,7 +42,7 @@ const MOVIES = [
     desktop: P(55, 29, -3, 22), mobile: P(80, 19, -3, 30) },
 
   { file: 'twilight', title: 'twilight', by: 'catherine hardwicke',
-    note: 'would like the experience life as a character', pfp: 4,
+    note: 'would like to experience life as one of the characters', pfp: 4,
     link: 'https://www.youtube.com/watch?v=uxjNDE2fMjI',
     desktop: P(87, 42, 8, 23), mobile: P(79, 60, -6, 32) },
 
